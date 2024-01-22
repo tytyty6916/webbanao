@@ -112,7 +112,52 @@ a:hover {
 .bg-light-blue {
     background: var(--light-blue-color);
 }
+.email-bt {
+  color: #989696;
+  width: 100%;
+  height: 55px;
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 25px;
+  background: transparent !important;
+  border: 1px solid #e8e8e8;
+}
+.massage-bt {
+  color: #989696;
+  width: 100%;
+  height: 150px;
+  font-size: 18px;
+  padding: 50px 20px 10px 20px;
+  margin-top: 25px;
+  background: transparent !important;
+  border: 1px solid #e8e8e8; 
+}
+.send_bt {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
 
+.send_bt a {
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #ebc30a;
+  padding: 8px 0px;
+  border-radius: 50px;
+}
+.send_bt a:hover {
+  color: #ffffff;
+  background-color: #ebc30a;
+}
+.map_main{
+  width: 100%;
+  float: left;
+  padding-top: 22px;
+}
 /* - Section Padding
 --------------------------------------------------------------*/
 .padding-xsmall {

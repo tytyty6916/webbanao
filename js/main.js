@@ -73,7 +73,7 @@ function handle_addCartItem() {
 
   // handle item is already exist
   if (itemsAdded.find((el) => el.title == newToAdd.title)) {
-    alert("This Item Is Already Exist!");
+    alert("Sản phẩm này đã có trong giỏ bạn rồi!");
     return;
   } else {
     itemsAdded.push(newToAdd);
@@ -111,12 +111,12 @@ function handle_changeItemQuantity() {
 
 function handle_buyOrder() {
   if (itemsAdded.length <= 0) {
-    alert("There is No Order to Place Yet! \nPlease Make an Order first.");
+    alert("Trong giỏ hàng không có sản phẩm ! \nXin hãy chọn sản phẩm trước");
     return;
   }
   const cartContent = cart.querySelector(".cart-content");
   cartContent.innerHTML = "";
-  alert("Your Order is Placed Successfully :)");
+  alert("Bạn dã mua thành công");
   itemsAdded = [];
 
   update();
